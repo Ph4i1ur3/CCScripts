@@ -1,3 +1,6 @@
+local version = "0"
+
+print("Installation Script Version " .. version)
 print("Program Starting...")
 fs.makeDir("github")
 print("Directory Created")
