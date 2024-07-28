@@ -1,4 +1,4 @@
-local version = "0"
+local version = "0.1"
 
 print("Installation Script Version " .. version)
 print("Program Starting...")
