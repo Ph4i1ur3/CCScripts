@@ -1,4 +1,4 @@
-packagerint("Program Starting...")
+print("Program Starting...")
 fs.makeDir("github")
 print("Directory Created")
 
