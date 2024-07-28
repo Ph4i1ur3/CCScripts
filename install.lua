@@ -1,4 +1,4 @@
-local version = "0.1"
+local version = "0.11"
 
 print("Installation Script Version " .. version)
 print("Program Starting...")
@@ -10,7 +10,7 @@ print("Request Made.")
 
 for file in request.readAll():gmatch("%S+") do
   print(file .. " File Requested.")
-  local thisReq = http.get("https://github.com/Ph4i1ur3/CCScripts/scripts/" .. file)
+  local thisReq = http.get("https://raw.githubusercontent.com/Ph4i1ur3/CCScripts/main/scripts/" .. file)
   if fs.exists("github/" .. file) then
     fs.delete("github/" .. file)
   end
