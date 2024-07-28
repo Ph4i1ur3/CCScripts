@@ -1,4 +1,6 @@
+packagerint("Program Starting...")
 fs.makeDir("github")
+print("Directory Created")
 
 local request = http.get("https://github.com/Ph4i1ur3/CCScripts/masterlist.txt")
 print("Request Made.")
