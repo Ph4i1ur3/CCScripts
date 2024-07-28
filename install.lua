@@ -1,4 +1,4 @@
-fs.makeDir("rom/github")
+fs.makeDir("github")
 
 local request = http.get("https://github.com/Ph4i1ur3/CCScripts/masterlist.txt")
 for file in request.readAll():gmatch("%S+") do
