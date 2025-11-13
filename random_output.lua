@@ -1,0 +1,1 @@
+print("Hello from your randomly generated Lua script!")
